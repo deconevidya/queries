@@ -16,6 +16,3 @@ install:
   - python setup.py develop
 script: nosetests
 #build_image: drydock/u14pytpls:prod 
-services:
-  - mysql
-  - postgres
